@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.mainDiv {
+    width: 100%;
+    height: 100%;
+    background: rgba(217, 217, 217, 0.7);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.popupDiv {
+    position: fixed;
+    width: 1300px;
+    height: 500px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.04);
+    border-radius: 30px;
+}
+
+.checkDiv {
+    /* background-color: red; */
+    margin-top: 70px;
+}
+
+.correctimg  {
+    margin-right: 50px;
+}
+
+.errorimg  {
+    margin-left: 50px;
+}
+
+.titleDiv {
+    width: 100%;
+    /* background-color: blue; */
+    margin: 0;
+    padding: 0;
+}
+
+.studentName {
+    display: inline-block;
+    width: 850px;
+    font-family: 'Noto Rashi Hebrew';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 30px;
+
+    /* background-color: red; */
+    margin-top: 50px;
+    text-align: left;
+    /* margin-left: 50px; */
+}
+
+.duringDate {
+    display: inline-block;
+    width: 350px;
+    font-family: 'Noto Rashi Hebrew';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 30px;
+    /* background-color: yellowgreen; */
+}
+
+.contentDiv {
+    height: 130px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+.reasonContent {
+    position: relative;
+    width: 1200px;
+    height: 100px;
+    /* background-color: blue; */
+    font-family: 'Noto Rashi Hebrew';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: left;
+    margin-top: 50px;
+}
+
+.tagging {
+    /* background-color: purple; */
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.tagging button {
+    display: inline-block;
+    width: 300px;
+    height: 50px;
+    background: #FFFFFF;
+    /* box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1); */
+    border-radius: 10px;
+
+    font-family: 'Noto Rashi Hebrew';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+
+    color: rgba(0, 0, 0, 0.7);
+    border: 0px;
+    box-shadow: 0px 0px 5px 3px rgba(0, 0, 0, 0.1);
+}
+
+.tagging .tagMessage {
+    width: 850px;
+    display : flex;
+	align-items : center;
+    text-align: left;
+    padding-left: 50px;
+
+    font-family: 'Noto Rashi Hebrew';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+}
+
+.infoMessage {
+    height: 50px;
+    font-family: 'Noto Rashi Hebrew';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    text-align: left;
+    padding-left: 100px;
+    margin-top: 10px;
+}
